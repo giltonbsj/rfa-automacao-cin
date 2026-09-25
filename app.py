@@ -331,10 +331,9 @@ if uploaded_file is not None:
         st.download_button(
             label="📥 Baixar Minuta da RFA Formatada em Word (.docx)",
             data=docx_buffer,
-            file_name=f"RFA_SE_Suite_Chapeco.docx",
+            file_name="RFA_SE_Suite_Chapeco.docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
 else:
     with tab2:
         st.info("👈 Por favor, carregue a planilha (.xlsx) na Aba 1 para visualizar o resumo financeiro e gerar o documento.")
-
