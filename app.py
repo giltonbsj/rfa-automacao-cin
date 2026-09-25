@@ -337,3 +337,4 @@ if uploaded_file is not None:
 else:
     with tab2:
         st.info("👈 Por favor, carregue a planilha (.xlsx) na Aba 1 para visualizar o resumo financeiro e gerar o documento.")
+
